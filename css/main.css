@@ -1,1 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 
+}
+body{
+    background: #F6F6F6;
+}
+
+h2{
+    font-size: 24px;
+    color: #ababab;
+    text-align: left;
+}
+.nama{
+    margin: 25px 50px 25px;
+
+}
+.credit{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #ababab;
+    margin: 255px 50px 20px;
+}
+.jeneng{
+    letter-spacing: 2px;
+}
+.nickname{
+    font-size: 18px;
+}
+.intro{
+    color: #ababab;
+    text-shadow: 1px 1px #acacac;
+    margin: 25px 0px 25px;
+}
+.socialmedia{
+    display: flex;
+    justify-content: left;
+    
+    margin-left: 50px;
+}
+a{
+    display: flex;
+    background: #F6F6F6;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    text text-decoration: none;
+    box-shadow: 5px 5px 10px -1px rgba(0,0,0,0.15),
+                -5px -5px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,);
+    transition: transform 0.3s;
+}
+a i{
+    font-size: 25px;
+    color: #777;
+    transition: transform 0.3s;
+}
+a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgb(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05) ;
+    border: 1px solid rgba(0,0,0,0.01);
+
+    transform: translateY(2px);
+}
+a:hover i{
+    transform: scale(0.96);
+}
+
+a:hover .fa-facebook{
+    color: #0080ff;
+}
+a:hover .fa-twitter{
+    color: #1ac8ed;
+}
+a:hover .fa-deviantart{
+    color: #00FF00;
+}
+a:hover .fa-github{
+    color: #000;
+}
+h1{
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding: 20px 0 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #ababab;
+    text-shadow: slategray;
+    
+}
+.salam{
+    
+}
